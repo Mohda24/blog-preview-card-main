@@ -32,9 +32,12 @@ a{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    border-top: 2px solid var(--Black--);
-    border-left: 2px solid var(--Black--);
+    border: 2px solid var(--Black--);
     box-shadow: 10px 10px;
+    transition: all 0.6s ease-out;
+}
+.main:hover{
+    box-shadow: 1rem 1rem 0 0 var(--Black--);
 }
 .main img.back{
     max-width: 100%;
